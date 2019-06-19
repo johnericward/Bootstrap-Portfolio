@@ -22,7 +22,7 @@ a:hover {
 .subtitle {
     text-align: center;
 }
-
+/* ======================================================================== */
 /* ABOUT */
 .aboutMe {
     
@@ -45,14 +45,15 @@ a:hover {
     border-style: none;
 }
 
-
+/* ======================================================================== */
 /* PORTFOLIO */
 
 .pics3 {
     display: none;
 }
 
-
+/* ======================================================================== */
+/* MOBILE */
 @media screen and (max-width:768px) {
 
 .slidePics {
@@ -62,7 +63,10 @@ a:hover {
 
 .pics3 {
     display: block;
+    margin: 2% 0;
 }
+
+
 
 }
 
