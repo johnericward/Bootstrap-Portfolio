@@ -12,6 +12,8 @@
     <!--  end of bootstrap css link -->
     <!-- my linked css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- my Word-Guess-Game css -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- bootstrap linked js -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -22,6 +24,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- my linked JS for Word-Guess-Game -->
+    <script src="assets/javascript/game.js"></script>
 
 </head>
 
@@ -30,19 +34,19 @@
 
 <!-- TITLE -->
 <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-    
-            </div>
-            <div class="col-lg-4">
-                <h1 class="titleName"><a href="portfolio.html"> A PORTFOLIO </a></h1>
-                <h5 class="subtitle"> by John Eric Ward </h5>
-            </div>
-            <div class="col-lg-4">
-    
-            </div>
+    <div class="row">
+        <div class="col-lg-4">
+
+        </div>
+        <div class="col-lg-4">
+            <h1 class="titleName"><a href="portfolio.html"> A PORTFOLIO </a></h1>
+            <h5 class="subtitle"> by John Eric Ward </h5>
+        </div>
+        <div class="col-lg-4">
+
         </div>
     </div>
+</div>
 
 
 <!-- ======================================================================= -->
@@ -126,59 +130,136 @@
             </div>
         </div>
     </div>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+
+    <div class="row">
+        <div class="col-lg">
+
+        </div>
+        <div class="col-lg-11">
+            <!-- hard copying and pasting a bunch of html from Word-Guess-Game -->
+            <!-- ========================================================== -->
+
+
+            <div class="row">
+                <div class="col-lg-4">
+
+                </div>
+                <div class="col-lg-4">
+                    <h1 class="titleName"> Hang Man </h1>
+                    <div class="subtitle">
+                        <h6>by</h6>
+                        <h5>John Eric Ward</h5>
+                        <h5><span id="startMessageCSS"></span></h5>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg"></div>
+                <div class="col-lg-10">
+                    <div class="blankSpacesBox">
+                        <h2>
+                            <span id="blankSpaces"></span>
+                        </h2>
+
+                        <h1>
+                            <span id="results"></span>
+                            <span id="losingResults"></span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-lg"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg">
+                    <h3>Score: <span id=scoreCSS>0</span></h3>
+                    <br>
+                    <h3>Wrong Letters: <span id="wrongLettersCSS"></span></h3>
+                    <br>
+                    <h3>Strikes: <span id="strikesCSS">0</span>/10 </h3>
+                </div>
+                <div class="col-lg-10">
+                    <div class="letterPressCSS">
+                        <h2>
+                            <div id="letterPress"></div>
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-lg"></div>
+            </div>
+
+
+
+            <!-- ========================================================== -->
+            <!-- end of Word-Guess-Game -->
+        </div>
+        <div class="col-lg">
+
+        </div>
+    </div>
 </div>
 
 <!-- pics for mobile view -->
 
 <div class="container">
-        <div class="row">
-            <div class="col-lg">
-    
+    <div class="row">
+        <div class="col-lg">
+
+        </div>
+        <div class="col-lg-11">
+
+
+            <div class="alcott2 pics3">
+                <img src="images/Alcott.jpg" alt="Alcott" width="100%" height="100%">
             </div>
-            <div class="col-lg-11">
-                
-         
-    <div class="alcott2 pics3">
-        <img src="images/Alcott.jpg" alt="Alcott" width="100%" height="100%">
-      </div>
-  
-      <div class="lowell2 pics3">
-        <img src="images/Lowell.jpg" alt="Alcott" width="100%" height="100%">
-      </div>
-  
-      <div class="fans2 pics3">
-          <img src="images/Fans.jpg" alt="Alcott" width="100%" height="100%">
-      </div>
- 
-       <div class="noyer2 pics3">
-          <img src="images/Noyer.jpg" alt="Alcott" width="100%" height="100%">
-       </div>
-  
-       <div class="plexi2 pics3">
-          <img src="images/Plexi.jpg" alt="Alcott" width="100%" height="100%">
-       </div>
-  
-       <div class="quill2 pics3">
-          <img src="images/Q_Close.jpg" alt="Alcott" width="100%" height="100%">
-       </div>
 
-       <div class="whale2 pics3">
-          <img src="images/Whale.jpg" alt="Alcott" width="100%" height="100%">
-       </div>
-  
-       <div class="wall2 pics3">
-          <img src="images/Rele_Wall.jpg" alt="Alcott" width="100%" height="100%">
-       </div>
- 
-       <div class="studio2 pics3">
-          <img src="images/Rele_Studio.jpg" alt="Alcott" width="100%" height="100%">
-       </div>
+            <div class="lowell2 pics3">
+                <img src="images/Lowell.jpg" alt="Alcott" width="100%" height="100%">
+            </div>
 
+            <div class="fans2 pics3">
+                <img src="images/Fans.jpg" alt="Alcott" width="100%" height="100%">
+            </div>
+
+            <div class="noyer2 pics3">
+                <img src="images/Noyer.jpg" alt="Alcott" width="100%" height="100%">
+            </div>
+
+            <div class="plexi2 pics3">
+                <img src="images/Plexi.jpg" alt="Alcott" width="100%" height="100%">
+            </div>
+
+            <div class="quill2 pics3">
+                <img src="images/Q_Close.jpg" alt="Alcott" width="100%" height="100%">
+            </div>
+
+            <div class="whale2 pics3">
+                <img src="images/Whale.jpg" alt="Alcott" width="100%" height="100%">
+            </div>
+
+            <div class="wall2 pics3">
+                <img src="images/Rele_Wall.jpg" alt="Alcott" width="100%" height="100%">
+            </div>
+
+            <div class="studio2 pics3">
+                <img src="images/Rele_Studio.jpg" alt="Alcott" width="100%" height="100%">
+            </div>
+
+        </div>
+        <div class="col-lg">
+
+        </div>
     </div>
-    <div class="col-lg">
-
-    </div>
-</div>
 </div>
 
 <body>
